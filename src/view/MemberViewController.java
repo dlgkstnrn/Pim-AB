@@ -154,7 +154,7 @@ public class MemberViewController implements Initializable {
 		Alert alert = new Alert(AlertType.INFORMATION);
         alert.initOwner(mainApp.getRootStage());
         alert.setTitle("알림");
-        alert.setContentText("경고 : " + message);            
+        alert.setContentText("경고  : " + message);            
         alert.showAndWait();
 	}
 
